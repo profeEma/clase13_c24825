@@ -1,0 +1,22 @@
+nav {
+  background-color: yellow; }
+  nav ul {
+    display: flex; }
+    nav ul li {
+      list-style-type: none; }
+      nav ul li a {
+        color: green;
+        font-size: 50px; }
+        nav ul li a:hover {
+          color: darkred; }
+
+main {
+  background-color: lightblue; }
+  main .encabezado {
+    text-align: left; }
+    @media only screen and (max-width: 768px) {
+      main .encabezado h1 {
+        padding: 20px;
+        font-size: 50px;
+        font-family: "comic sans ms";
+        font-weight: bold; } }
