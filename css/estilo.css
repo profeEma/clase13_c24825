@@ -20,3 +20,103 @@ main {
         font-size: 50px;
         font-family: "comic sans ms";
         font-weight: bold; } }
+
+header {
+  width: 50%; }
+
+h1 {
+  width: 500px; }
+
+@media only screen and (min-width: 1023px) {
+  body h1 {
+    font-size: 50px; }
+  body h3 {
+    font-size: 30px; } }
+
+.col-1 {
+  padding: 5px; }
+
+.col-2 {
+  padding: 10px; }
+
+.col-3 {
+  padding: 15px; }
+
+.col-4 {
+  padding: 20px; }
+
+.col-5 {
+  padding: 25px; }
+
+.col-6 {
+  padding: 30px; }
+
+.col-7 {
+  padding: 35px; }
+
+.col-8 {
+  padding: 40px; }
+
+.col-9 {
+  padding: 45px; }
+
+.col-10 {
+  padding: 50px; }
+
+.font-green {
+  color: green;
+  background-color: transparent; }
+
+.font-yellow {
+  color: yellow;
+  background-color: transparent; }
+
+.font-black {
+  color: black;
+  background-color: transparent; }
+
+.colorPrimario {
+  color: blue; }
+
+.colorSecundario {
+  color: #eeccff; }
+
+.colorBlack {
+  color: black; }
+
+.colorWhite {
+  color: white; }
+
+div.encabezado {
+  color: red;
+  text-align: center;
+  font-size: 35px; }
+
+.boton, .boton-aceptar, .boton-cancelar {
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 20px; }
+
+.boton-aceptar {
+  background-color: green;
+  color: white;
+  border: 1px solid green; }
+
+.boton-cancelar {
+  background-color: red;
+  color: white;
+  border: 1px solid red; }
+
+div {
+  color: red;
+  background-color: yellow;
+  font-size: 40px; }
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
